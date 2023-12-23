@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HandleManager">
+      <UniqueIdentifier>{69c73df3-5aa0-4058-b56c-40debb2470d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{037a7464-7310-46a9-8f67-44a3a2efca11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GenericType">
+      <UniqueIdentifier>{c5aa4952-a40e-4870-8aa6-74052054a7ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultHandle.cpp">
+      <Filter>HandleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHandle.cpp">
+      <Filter>HandleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeHandle.cpp">
+      <Filter>HandleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerHandle.cpp">
+      <Filter>HandleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PrinterHandle.cpp">
+      <Filter>HandleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleManager.cpp">
+      <Filter>HandleManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HandleManager.hpp">
+      <Filter>HandleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeTracer.hpp">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericType.hpp">
+      <Filter>GenericType</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
